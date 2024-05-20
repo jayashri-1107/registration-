@@ -4,12 +4,14 @@
     box-sizing: border-box;
     
 font-family: 'Roboto', sans-serif;
+
 }
 
 .container{
     max-width: 80%; 
     padding: 34px; 
     margin: auto;
+    
 }
 
 .container h1 {
@@ -39,6 +41,7 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .btn{

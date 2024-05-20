@@ -8,9 +8,9 @@ if(isset($_POST['submit']))
     $phone=$_POST['phone'];
     $descr=$_POST['descr'];
 
-    $con=mysqli_connect('localhost','root',"",'data_table');
+    $con=mysqli_connect('localhost','root',"",'data');
 
-    $sql="INSERT INTO Info(name,age,gender,email,phone,descr) 
+    $sql="INSERT INTO information(name,age,gender,email,phone,descr) 
     VALUES('$name','$age','$gender','$email','$phone','$descr')";
 
 
@@ -35,8 +35,10 @@ else{
 
 <body>
     
-    <div class="con">
+    <div class="container">
+        <center>
         <h1>welcome to RCPIMRD US trip form..</h1>
+</center>
         <p>fill this form to conferm ur participation...</p>
         <p class="smsg">thanks for submiting form..</p>
 
